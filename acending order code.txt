@@ -1,0 +1,26 @@
+#include<iostream.h>
+#include<conio.h>
+ void main()
+{
+ clrscr();
+ int a[10]={1,2,3,4,5,6,7,8,9,10};
+ int i,j,c;
+ {
+ for(i=9;i>=0;i--)
+ {
+  for(j=9;j>=0;j--)
+   {
+     if(a[j]<a[j+1])
+   }
+  c=a[j];
+  a[j]=a[j+1];
+  a[j+1]=c;
+   }
+   }
+   }
+   for(i=9;i>=0;i--)
+   {
+     cout<<endl<<a[i]<<"   ";
+    }
+    getch();
+     }
